@@ -34,6 +34,9 @@
     
     [JSWebview loadHTMLString:htmlString baseURL:baseURL];
     
+    UIView *bgView = [[UIView alloc] init];
+    [self.view addSubview:bgView];
+    
 }
 - (BOOL)webView:(UIWebView *)webView shouldStartLoadWithRequest:(NSURLRequest *)request navigationType:(UIWebViewNavigationType)navigationType
 {
