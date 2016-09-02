@@ -10,4 +10,6 @@
 
 @interface shopItem : NSObject
 
+@property (nonatomic,copy)NSString *str;
+
 @end

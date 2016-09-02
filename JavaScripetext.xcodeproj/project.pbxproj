@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84814ADD1D796D490017DA07 /* shopItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 84814ADC1D796D490017DA07 /* shopItem.m */; };
 		B2017CFA1CCB0215001BD386 /* less_s@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B2017CF81CCB0215001BD386 /* less_s@2x.png */; };
 		B2017CFB1CCB0215001BD386 /* plus_s@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B2017CF91CCB0215001BD386 /* plus_s@2x.png */; };
 		B2017CFE1CCB0263001BD386 /* ShopCarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2017CFD1CCB0263001BD386 /* ShopCarViewController.m */; };
@@ -33,6 +34,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		84814ADB1D796D490017DA07 /* shopItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shopItem.h; sourceTree = "<group>"; };
+		84814ADC1D796D490017DA07 /* shopItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = shopItem.m; sourceTree = "<group>"; };
 		B2017CF81CCB0215001BD386 /* less_s@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "less_s@2x.png"; sourceTree = "<group>"; };
 		B2017CF91CCB0215001BD386 /* plus_s@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plus_s@2x.png"; sourceTree = "<group>"; };
 		B2017CFC1CCB0263001BD386 /* ShopCarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopCarViewController.h; sourceTree = "<group>"; };
@@ -98,6 +101,8 @@
 				B20C0BB01CC7469E0072762C /* AppDelegate.h */,
 				B20C0BB11CC7469E0072762C /* AppDelegate.m */,
 				B20C0BD41CC756870072762C /* About.html */,
+				84814ADB1D796D490017DA07 /* shopItem.h */,
+				84814ADC1D796D490017DA07 /* shopItem.m */,
 				B20C0BB31CC7469E0072762C /* ViewController.h */,
 				B20C0BB41CC7469E0072762C /* ViewController.m */,
 				B2017CFC1CCB0263001BD386 /* ShopCarViewController.h */,
@@ -239,6 +244,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84814ADD1D796D490017DA07 /* shopItem.m in Sources */,
 				B20C0BB51CC7469E0072762C /* ViewController.m in Sources */,
 				B2017CFE1CCB0263001BD386 /* ShopCarViewController.m in Sources */,
 				B20C0BB21CC7469E0072762C /* AppDelegate.m in Sources */,
