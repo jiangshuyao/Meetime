@@ -35,6 +35,7 @@
     [JSWebview loadHTMLString:htmlString baseURL:baseURL];
     
     UIView *bgView = [[UIView alloc] init];
+    bgView.backgroundColor = [UIColor orangeColor];
     [self.view addSubview:bgView];
     
 }
