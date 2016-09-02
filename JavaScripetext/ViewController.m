@@ -36,6 +36,7 @@
     
     UIView *bgView = [[UIView alloc] init];
     bgView.backgroundColor = [UIColor orangeColor];
+    bgView.frame = CGRectMake(0, 0, 100, 100);
     [self.view addSubview:bgView];
     
 }
